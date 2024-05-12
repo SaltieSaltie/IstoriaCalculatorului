@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css_f/start_page.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Istoria și Evoluția Calculatorului </title>
+</head>
+<body>
+    <header>
+        <div class = "pozaHeader">
+            <img src = "imagini/pc_1.jpg">
+        </div>
+        <p class = "header_text">  </p>
+        <div class = "pozaHeader2">
+            <img src = "imagini/pc_2.jpg">
+        </div>
+    </header>
+    <div>
+        <img class = "poza_introducere" src = "imagini/pcSetup_1.jpg" id = "introducere_poza">
+        <p class = "textPestePoza">
+            ISTORIA ȘI EVOLUȚIA CALCULATORULUI
+        </p>
+    </div>
+    <div class = "mainSite" id = "maineSite1">
+    <div>
+        <p class = "introducere_text">
+            Un <u>calculator</u>, numit și sistem de calcul, computer, ordinator sau PC (Personal Computer), este o mașină de prelucrat date și informații conform unei liste de instrucțiuni numită program.
+            Calculatoarele actuale nu sunt doar mașini de prelucrat informații, ci și dispozitive care facilitează comunicația între doi sau mai mulți utilizatori, de exemplu sub formă de numere, text, imagini, sunet sau video sau chiar toate deodată (multimedia).
+        </p>
+    </div>
+    <div>
+        <p class = "introducereLaTab_text">
+            Putem urmări evenimente importante din evoluția calculatorului în <b>ordine cronologică</b>
+        </p>
+    </div>
+    <div class = "tab">
+        <button class = "tablinks" onclick = "openInfo(event, 'charlesBabbage')"> <p class = "tab_title"> Planul lui Charles Babbage (1820-1837) </p> </button>
+        <button class = "tablinks" onclick = "openInfo(event, 'computerAnalitic')"> <p class = "tab_title"> Calculatoarele analitice (1830-1910) </p> </button>
+        <button class = "tablinks" onclick = "openInfo(event, 'computerElecMec')"> <p class = "tab_title"> Calculatoarele electromecanice (1880-1914) </p> </button>
+        <button class = "tablinks" onclick = "openInfo(event, 'primRazboiMondial')"> <p class = "tab_title"> Dispozitive în Primul Război Mondial (1914-1918) </p> </button>
+        <button class = "tablinks" onclick = "openInfo(event, 'doiRazboiMondial')"> <p class = "tab_title"> Dispozitive în Al Doilea Război Mondial (1939-1945) </p> </button>
+        <button class = "tablinks" onclick = "openInfo(event, 'calcCuTranzistor')"> <p class = "tab_title"> Primele calculatoare cu tranzistori (1950-1960) </p> </button>
+        <button class = "tablinks" onclick = "openInfo(event, 'calcCuCircInt')"> <p class = "tab_title"> Apariția circuitelor integrate (1960-1970) </p> </button>
+        <button class = "tablinks" onclick = "openInfo(event, 'computerPersonal')"> <p class = "tab_title"> Apariția computerului personal (1970-1990) </p> </button>
+        <button class = "tablinks" onclick = "openInfo(event, 'sistemOperareGrafic')"> <p class = "tab_title"> Apariția sistemelor de operare grafice (1980-2000) </p> </button>
+        <button class = "tablinks" onclick = "openInfo(event, 'lumeaModerna')"> <p class = "tab_title"> Calculatorul în lumea modernă </p> </button>
+    </div>
+
+    <div id = "charlesBabbage" class = "tabcontent">
+        <img class = "imageInTab" src = "imagini/charlesBabbage_1.jpg">
+        <p class = "tab_text">
+            Matematicianul și inginerul mecanic englez, Charles Babbage, a fost cel dintâi care a imaginat o mașină de calculat programabilă, <br> asemănătoare computerelor din ziua de azi. Din acest motiv este privit ca un "părinte” al informaticii.
+        </p>
+        <a href="charlesBabbagePlan.html"><button class = "butonSiteDinTab"> Mai multe despre Planul lui Charles Babbage </button></a>
+    </div>
+
+    <div id = "computerAnalitic" class = "tabcontent">
+        <img class = "imageInTab" src = "imagini/calculatorAnalitic_1.jpg">
+        <p class = "tab_text">
+            După moartea lui Babbage, mai mulți ingineri și matematicieni au încercat să îmbunătățească și să construiască calculatoare mecanice. Printre aceștia se numără Percy Ludgate și George Scheutz, care au lucrat la mașini de calcul mecanic îmbunătățite în a doua jumătate a secolului al XIX-lea.
+        </p>
+        <a href = "computerAnalitic.html"> <button class = "butonSiteDinTab"> Mai multe despre calculatoarele analitice </button> </a>
+    </div>
+
+    <div id = "computerElecMec" class = "tabcontent">
+        <img class = "imageInTab" src = "imagini/calculatorElecMec_1.jpg">
+        <p class = "tab_text">
+            Un calculator electromecanic este un tip de calculator care utilizează atât componente electromagnetice, cât și mecanice pentru a efectua calcule. Aceste calculatoare au fost dezvoltate și utilizate în perioada anterioară apariției calculatoarelor electronice cu circuite integrate și au reprezentat un pas important în evoluția tehnologiei de calcul automat.
+        </p>
+        <a href = "computerElectroMecanic.html"> <button class = "butonSiteDinTab"> Mai multe despre calculatoarele electromecanice </button> </a>
+    </div>
+
+    <div id = "primRazboiMondial" class = "tabcontent">
+        <img class = "imageInTab" src = "imagini/primRazbMond_1.jpg">
+        <p class = "tab_text">
+            În timpul Primului Război Mondial, evoluția calculatoarelor a fost limitată, dar există câteva aspecte care arată cum tehnologia calculatoarelor a avansat în această perioadă.
+        </p>
+        <a href = "primRazboiMondial.html"> <button class = "butonSiteDinTab"> Mai multe despre dispozitivele în Primul Război Mondial </button> </a>
+    </div>
+
+    <div id = "doiRazboiMondial" class = "tabcontent">
+        <img class = "imageInTab" src = "imagini/doiRazbMond_1.jpg">
+        <p class = "tab_text">
+            Al Doilea Război Mondial a fost o perioadă în care evoluția calculatorului a cunoscut progrese semnificative, cu o serie de dezvoltări tehnologice care au contribuit la avansul ulterior al calculatoarelor și al tehnologiei informatice.
+        </p>
+        <a href = "alDoileaRazboiMondial.html"> <button class = "butonSiteDinTab"> Mai multe despre dispozitivele în Al Doilea Război Mondial </button> </a>
+    </div>
+
+    <div id = "calcCuTranzistor" class = "tabcontent">
+        <img class = "imageInTab" src = "imagini/tranzistor_1.jpg">
+        <p class = "tab_text">
+            Primele calculatoare care au folosit tranzistori, marcând tranziția de la tuburile electronice la tranzistoare, au apărut în anii 1950 și au fost parte a unei evoluții semnificative în domeniul calculatoarelor.
+        </p>
+        <a href = "calculatorTranzistor.html"> <button class = "butonSiteDinTab"> Mai multe despre primele calculatoare cu tranzistori </button> </a>
+    </div>
+
+    <div id = "calcCuCircInt" class = "tabcontent">
+        <img class = "imageInTab" src = "imagini/circInt_1.jpg">
+        <p class = "tab_text">
+            Primele calculatoare cu circuite integrate au reprezentat un alt pas semnificativ în evoluția tehnologiei calculatoarelor, aducând o revoluție în ceea ce privește dimensiunea, puterea și eficiența acestor dispozitive.
+        </p>
+        <a href = "calculatorCircuitInt.html"> <button class = "butonSiteDinTab"> Mai multe despre primele calculatoare cu circuite integrate </button> </a>
+    </div>
+
+    <div id = "computerPersonal" class = "tabcontent">
+        <img class = "imageInTab" src = "imagini/computerPersonal_1.jpg">
+        <p class = "tab_text">
+            Evoluția calculatorului personal între anii 1970 și 1990 a fost una remarcabilă, marcând o tranziție de la dispozitive rudimentare și specializate la computere personale puternice și accesibile care au schimbat fundamental modul în care oamenii lucrează, comunică și se distrează.
+        </p>
+        <a href = "computerPersonal.html"> <button class = "butonSiteDinTab"> Mai multe despre computerul personal </button> </a>
+    </div>
+
+    <div id = "sistemOperareGrafic" class = "tabcontent">
+        <img class = "imageInTab" src = "imagini/sistOpGrafic_1.jpg">
+        <p class = "tab_text">
+            Istoria sistemelor de operare cu interfață grafică (GUI) își are rădăcinile în anii 1960 și 1970, dar a devenit cu adevărat prominentă în anii 1980 și 1990, odată cu popularizarea calculatoarelor personale.
+        </p>
+        <a href = "sistemeOperareGrafice.html"> <button class = "butonSiteDinTab"> Mai multe despre sistemele de operare grafice </button> </a>
+    </div>
+
+    <div id = "lumeaModerna" class = "tabcontent">
+        <img class = "imageInTab" src = "imagini/modernPC_1.jpg">
+        <p class = "tab_text">
+            Evoluția calculatorului în ultimii ani a fost marcată de progrese tehnologice excepționale, transformând radical modul în care lucrăm, comunicăm și ne desfășurăm viața cotidiană.
+        </p>
+        <a href = "lumeaModerna.html"> <button class = "butonSiteDinTab"> Mai multe despre calculatorul în lumea modernă </button> </a>
+    </div>
+    </div>      <!--Aici se termina mainSite-->
+
+    <div class = "secundarSite">
+        <p class = "evolutieTitlu">
+            Evoluția calculatorului în ultimii 30 de ani
+        </p>
+        <div class = "marimePC">
+            <p class = "evolutieSubTitlu">
+                Mărimea
+            </p>
+            <img class = "imagineStangaComparatie" src = "imagini/marimePc_1.jpg">
+            <img class = "imagineDreaptaComparatie" src = "imagini/marimePc_2.jpg">
+            <p class = "descriereComparatie">
+                <i> Se observă că s-au micșorat dimensiunile unui calculator așa de mult încât se pot cumpăra în formă de "Stick PC".</i>
+            </p>
+        </div>
+
+        <div class = "puterePC">
+            <p class = "evolutieSubTitlu">
+                Puterea
+            </p>
+            <img class = "imagineStangaComparatie" src = "imagini/puterePc_1.jpg">
+            <img class = "imagineDreaptaComparatie" src = "imagini/puterePc_2.jpg">
+            <p class = "descriereComparatie">
+                <i> În zilele noastre, jocurile video nu se pot distinge de viața reală datorită puterii crescute a computerului. </i>
+            </p>
+        </div>
+
+        <div class = "stocarePC">
+            <p class = "evolutieSubTitlu">
+                Capacitatea de stocare
+            </p>
+            <img class = "imagineStangaComparatie" src = "imagini/stocarePc_1.jpg">
+            <img class = "imagineDreaptaComparatie" src = "imagini/stocarePc_2.jpg">
+            <p class = "descriereComparatie">
+                <i> Astăzi, norma socială este să aveți cel puțin 1 TB (1024 GB sau 1048576 MB) într-un computer. </i>
+            </p>
+        </div>
+
+        <div class = "pretPC">
+            <p class = "evolutieSubTitlu">
+                Prețul
+            </p>
+            <img class = "imagineStangaComparatie" src = "imagini/pretPc_1.jpg">
+            <img class = "imagineDreaptaComparatie" src = "imagini/pretPc_2.jpg">
+            <p class = "descriereComparatie">
+                <i> Datorită progresului tehnologic, calculatoarele pot fi produse la un cost mai mic în comparație cu deceniile în urmă. </i>
+            </p>
+        </div>
+    </div>      <!--Aici se termina secundarSite-->
+
+    <div class = "alteTehnologii">
+        <p class = "evolutieTitlu">
+            Alte tehnologii dezvoltate recent
+        </p>
+        <a href = "https://developer.nvidia.com/discover/ray-tracing#"> <img class = "imagineTehnologii" src = "imagini/logoRTX.jpg"></a>
+        <a href = "https://www.nvidia.com/ro-ro/geforce/technologies/dx12/"> <img class = "imagineTehnologii" src = "imagini/logoDirectX12.png"></a>
+        <a href = "https://openai.com/gpt-4"> <img class = "imagineTehnologii" src = "imagini/logoChatGPT.jpg"></a>
+        <a href = "https://www.vulkan.org/"> <img class = "imagineTehnologii" src = "imagini/logoVulkan.jpg"></a>
+        <p class = "introducereLaTab_text">
+            Putem accesa pagina tehnologiilor pentru a afla mai multe despre ele.
+        </p>
+    </div>
+
+    <footer>
+        <p class = "footer_text">
+            @2024 Proiect realizat de Lungoci Albert - Clasa a-XII-a A - Colegiul Tehnic Rădăuți
+        </p>
+    </footer>
+    <script src = "js_f/susJosScroll.js"> </script>
+    <script src = "js_f/openTab.js"> </script>
+</body>
+</html>
